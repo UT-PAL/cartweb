@@ -1,0 +1,66 @@
+
+        <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css"
+        integrity="sha256-ECB9bbROLGm8wOoEbHcHRxlHgzGqYpDtNTgDTyDz0wg=" crossorigin="anonymous" />
+    <style>
+
+        .success , .error{
+            color:white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+        .success{
+            background: green;
+        }
+        .error{
+            background: red;
+        }
+    </style>
+    
+        <title>Product List</title>
+
+</head>
+
+<body>
+    <div class="container">
+      
+      
+        <hr>
+        <h4>Product List</h4>
+        
+        
+        <table class="u-full-width">
+            <thead>
+            <tr>
+                <th>Picture</th>
+            <th>Product name</th>
+            <th>Price</th>
+            <th>  </th> 
+            
+            
+            <th></th>
+            </tr>
+        </thead>
+        <p id="alert"></p>
+        <tbody id="product_list">
+            
+
+            
+               </tbody>
+        </table>
+        <button id="showcart" onclick="show()" >Show cart </button>
+  
+       </div>
+<div class="container">
+   <p id="output"> </p>
+   <p id="total"></p>
+   <button id="clear">Clear cart </button>
+</div>
+    </body>
+    <script src="js/script.js"></script>
+</html>
